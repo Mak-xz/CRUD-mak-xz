@@ -34,6 +34,6 @@
 }
 
 .link {
-  @include defaultTypography($font-size: 1.125rem, $color: var(--color-pink));
+  @include defaultTypography($font-size: 1.125rem, $color: var(--color-blue));
   text-decoration: none;
 }

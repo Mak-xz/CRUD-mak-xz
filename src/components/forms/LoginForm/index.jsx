@@ -45,7 +45,7 @@ export const LoginForm = () => {
           cadastre-se
         </Link>
         <button className="btn" type="submit">
-          {loading ? "acessando..." : "acessar scraplex"}
+          {loading ? "acessando..." : "acessar msg"}
         </button>
       </div>
     </form>

@@ -9,7 +9,7 @@ export const Header = () => {
   return (
     <header>
       <div className={style.container}>
-        <img src={scraplexLogo} alt="Scraplex logo" />
+        <img src={scraplexLogo} alt="The msg logo" />
         <div className={style.container__logout}>
           <div>
             <p className="paragraph">{user?.name}</p>
