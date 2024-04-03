@@ -2,13 +2,14 @@ import { Link } from "react-router-dom";
 import { MdEdit, MdDelete, MdVisibility } from "react-icons/md";
 import { useContext } from "react";
 import { ScrapContext, UserContext } from "../../../providers";
+import styles from "./style.module.scss";
 
 export const ScrapCard = ({ scrap }) => {
   const { user } = useContext(UserContext);
   const { deleteScrap, selectScrapEdit } = useContext(ScrapContext);
 
   return (
-    <li>
+    <li className={styles.card}>
       <div>
         <span className="paragraph">
           <strong>{scrap?.author}</strong> {scrap?.email}

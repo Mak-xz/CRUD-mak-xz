@@ -23,3 +23,12 @@
     padding: 1rem;
   }
 }
+
+@media(max-width: 425px) {
+.container{
+   padding: 2%;
+   width: 425px;
+}
+   
+}
+

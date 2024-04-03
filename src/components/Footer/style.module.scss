@@ -14,3 +14,16 @@
     }
   }
 }
+
+@media(max-width: 425px) {
+.container{
+  .container__box{
+    flex-direction: column;
+    padding: 1rem 3.75rem;
+
+    img{
+      width: 20%;
+     }
+  }
+}
+}
